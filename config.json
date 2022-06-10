@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "type": "",
+    "moduleHost": ""
+  },
+  "db": {
+    "moduleHost": ""
+  },
+  "microservices": {},
+  "v": "0.1"
+}
