@@ -9,7 +9,7 @@
 export default {
   dev: {
     '/api/': {
-      target: 'localhost:8000/api/',
+      target: 'localhost:8001/api/',
       changeOrigin: true,
     },
   },

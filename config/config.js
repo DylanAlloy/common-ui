@@ -81,44 +81,6 @@ export default defineConfig({
       ],
     },
     {
-      name: 'Tools',
-      icon: 'tool',
-      routes: [
-        {
-          name: 'Networking',
-          path: '/networking',
-          routes: [
-            {
-              name: 'DNS Tool',
-              path: '/networking/dnstool',
-              component: './networking/dnstool',
-            },
-          ],
-        },
-        {
-          name: 'Diagrams',
-          path: '/editor',
-          routes: [
-            {
-              name: 'flow',
-              path: '/editor/flow',
-              component: './editor/flow',
-            },
-            {
-              name: 'mind',
-              path: '/editor/mind',
-              component: './editor/mind',
-            },
-            {
-              name: 'koni',
-              path: '/editor/koni',
-              component: './editor/koni',
-            },
-          ],
-        },
-      ],
-    },
-    {
       path: '/',
       redirect: '/dashboard/workplace',
     },
