@@ -1,15 +1,15 @@
 {
   "auth": {
     "type": "Passport",
-    "moduleHost": ""
+    "moduleHost": "http://localhost/auth"
   },
   "db": {
-    "moduleHost": ""
+    "moduleHost": "http://localhost/auth"
   },
   "microservices": {
     "codewatch": {
-      "moduleHost": "",
-      "type": ""
+      "moduleHost": "http://localhost/codewatch",
+      "type": "Security"
     }
   },
   "v": "0.1"

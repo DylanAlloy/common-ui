@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "type": "",
+    "moduleHost": ""
+  },
+  "db": {
+    "moduleHost": ""
+  },
+  "microservices": {
+    "codewatch": {
+      "moduleHost": "",
+      "type": ""
+    }
+  },
+  "v": "0.1"
+}
