@@ -6,6 +6,11 @@
   "db": {
     "moduleHost": "http://localhost/auth"
   },
-  "microservices": {},
+  "microservices": {
+    "codewatch": {
+      "moduleHost": "http://localhost/codewatch",
+      "type": "Security"
+    }
+  },
   "v": "0.1"
 }
